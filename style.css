@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+/* .form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+} */
+.form{
+    color: antiquewhite;
+    display: grid;
+    border: 2px solid red;
+    grid-template-rows: repeat(4, 1fr) ;
+    grid-template-columns: repeat(2 , 2fr 1fr);
+}
