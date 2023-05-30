@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#overview{
+    background-color: rgba(187, 211, 211, 0.653);
+    font-size: 30px;
+    margin: 1%;
+    text-align: center;
+}
+#name{
+    font-weight: bold;
+    font-style: italic;
+
+}
+#head{
+    background-color: rgba(187, 211, 211, 0.653);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 1%;
+
+
+}
+img{
+    width: 50%;
+    margin: auto;
+}
+#choose{
+    margin: 1%;
+    background-color: rgba(187, 211, 211, 0.653);
+    padding-left: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+input[type="text"]{
+    width: 80%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
